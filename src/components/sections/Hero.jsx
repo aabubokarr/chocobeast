@@ -103,7 +103,7 @@ export default function Hero() {
             <Button
               variant="secondary"
               size="lg"
-              className="w-full sm:w-auto"
+              className="w-full py-2 sm:w-auto"
               onClick={() => scrollIntoSection("products")}
               data-cursor-text="Shop"
             >
@@ -112,7 +112,7 @@ export default function Hero() {
             <Button
               variant="outline"
               size="lg"
-              className="w-full sm:w-auto hover:bg-brand-plum/5"
+              className="w-full py-2 sm:w-auto hover:bg-brand-plum/5"
               onClick={() => scrollIntoSection("story")}
               data-cursor-text="Our Journey"
             >

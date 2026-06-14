@@ -6,6 +6,7 @@ import { Button } from "../ui/button"
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const currentYear = new Date().getFullYear()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -52,7 +53,7 @@ export default function Navbar() {
               transition={{ type: "spring", stiffness: 300, damping: 10 }}
               className="text-brand-plum"
             >
-              <Flame className="w-8 h-8 fill-brand-caramel stroke-brand-plum stroke-2" />
+              <img src="/favicon.svg" alt="logo" className="w-10 h-10" />
             </motion.div>
             <span>
               Choco<span className="text-brand-caramel">beast</span>
@@ -118,7 +119,7 @@ export default function Navbar() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", damping: 25, stiffness: 200 }}
-              className="fixed top-0 right-0 bottom-0 w-[280px] bg-brand-cream border-l border-brand-dark-brown/10 p-8 pt-24 z-50 shadow-lux-lg md:hidden flex flex-col justify-between"
+              className="fixed top-0 right-0 bottom-0 w-[300px] bg-brand-cream border-l border-brand-dark-brown/10 p-8 pt-24 z-50 shadow-lux-lg md:hidden flex flex-col justify-between"
             >
               <button
                 onClick={() => setMobileMenuOpen(false)}
@@ -156,7 +157,7 @@ export default function Navbar() {
                   Shop Now
                 </Button>
                 <p className="text-[10px] text-center text-brand-dark-brown/50 uppercase tracking-widest font-sans font-bold">
-                  © 2026 Chocobeast Ltd
+                  Copyright © {currentYear} Chocobeast Ltd
                 </p>
               </div>
             </motion.div>

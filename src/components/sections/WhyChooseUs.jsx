@@ -68,7 +68,7 @@ export default function WhyChooseUs() {
     {
       icon: RefreshCw,
       title: "Direct Ethical Trade",
-      frontText: "We cut out all brokers, dealing directly with cacao cooperatives. We pay up to 40% above fair-trade standard.",
+      frontText: "We cut out all brokers, dealing directly. We pay up to 40% above fair-trade standard.",
       backTitle: "Monstrously Fair Pay",
       backText: "By trading directly with the growers in Madagascar and Brazil, we pay families stable, premium wages. This allows farmers to compost locally and handcraft cocoas with genuine, sustainable care."
     },

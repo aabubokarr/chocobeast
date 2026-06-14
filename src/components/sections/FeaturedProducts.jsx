@@ -19,7 +19,7 @@ export default function FeaturedProducts() {
       price: "$9.50",
       rating: 4.9,
       reviews: 124,
-      image: "https://images.unsplash.com/photo-1548907040-4d42b52125e0?auto=format&fit=crop&q=80&w=600",
+      image: "/images/bar1.png",
       color: "from-[#2A1206] to-[#3E1F0D]",
       badge: "Best Seller",
       badgeVariant: "accent",
@@ -34,7 +34,7 @@ export default function FeaturedProducts() {
       price: "$9.50",
       rating: 4.8,
       reviews: 98,
-      image: "https://images.unsplash.com/photo-1511381939415-e44015466834?auto=format&fit=crop&q=80&w=600",
+      image: "/images/bar2.png",
       color: "from-[#D9A55C]/40 to-[#2A1206]",
       badge: "Indulgent",
       badgeVariant: "primary",
@@ -49,7 +49,7 @@ export default function FeaturedProducts() {
       price: "$10.00",
       rating: 4.7,
       reviews: 74,
-      image: "https://images.unsplash.com/photo-1536256263959-770b48d82b0a?auto=format&fit=crop&q=80&w=600",
+      image: "/images/bar3.png",
       color: "from-[#4B6E40]/20 to-[#2A1206]",
       badge: "Limited Release",
       badgeVariant: "outline",
@@ -64,7 +64,7 @@ export default function FeaturedProducts() {
       price: "$10.00",
       rating: 4.9,
       reviews: 86,
-      image: "https://images.unsplash.com/photo-1544982503-9f984c14501a?auto=format&fit=crop&q=80&w=600",
+      image: "/images/bar4.png",
       color: "from-pink-900/30 to-[#2A1206]",
       badge: "Award Winning",
       badgeVariant: "accent",
@@ -234,7 +234,7 @@ export default function FeaturedProducts() {
                             className="flex items-center justify-center gap-1 text-xs"
                           >
                             <ShoppingBag className="w-3.5 h-3.5" />
-                            Add to Cart
+                            Add
                           </motion.span>
                         )}
                         {cartState === "adding" && (
