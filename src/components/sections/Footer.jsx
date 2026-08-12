@@ -53,7 +53,7 @@ export default function Footer() {
                 whileHover={{ rotate: 15, scale: 1.1 }}
                 className="text-brand-plum"
               >
-                <img src="/logo.svg" alt="logo" className="w-10 h-10" />
+                <img src="./logo.svg" alt="logo" className="w-10 h-10" />
               </motion.div>
               <span>
                 Choco<span className="text-brand-caramel">beast</span>

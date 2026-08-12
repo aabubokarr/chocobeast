@@ -19,7 +19,7 @@ export default function FlavorExplorer() {
       blobColor: "bg-[#3E1F0D]/20",
       accentText: "text-brand-caramel",
       progressBg: "bg-brand-caramel",
-      image: "/images/bar1.png",
+      image: "./images/bar1.png",
     },
     caramel: {
       name: "Salty Claws",
@@ -33,7 +33,7 @@ export default function FlavorExplorer() {
       blobColor: "bg-brand-caramel/25",
       accentText: "text-brand-plum",
       progressBg: "bg-brand-plum",
-      image: "/images/bar2.png",
+      image: "./images/bar2.png",
     },
     matcha: {
       name: "Beast Matcha",
@@ -47,7 +47,7 @@ export default function FlavorExplorer() {
       blobColor: "bg-[#4B6E40]/20",
       accentText: "text-brand-gold",
       progressBg: "bg-brand-gold",
-      image: "/images/bar3.png",
+      image: "./images/bar3.png",
     },
     berry: {
       name: "Velvet Berry",
@@ -61,7 +61,7 @@ export default function FlavorExplorer() {
       blobColor: "bg-brand-plum/20",
       accentText: "text-brand-gold",
       progressBg: "bg-brand-gold",
-      image: "/images/bar4.png",
+      image: "./images/bar4.png",
     }
   }
 

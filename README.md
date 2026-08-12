@@ -18,11 +18,11 @@ Welcome to the **Chocobeast** project! This README provides an overview of the p
 ## Visit
 
 - [Repository](https://github.com/aabubokarr/chocobeast.git)
-- [Website](https://chocobeast.netlify.app/)
+- [Website](https://aabubokarr.github.io/chocobeast/)
 
 ## About
 
-**Chocobeast** is a sleek and modern website template for healthcare clinics. It features a responsive design, booking system integration, service listings, and various health tools like a BMI calculator.
+**Chocobeast** is a modern, immersive chocolate website designed to showcase premium chocolate products through bold visuals, smooth interactions, and an engaging user experience. Explore delicious creations, discover rich flavors, and experience chocolate in a whole new way.
 
 ## Features
 
@@ -30,8 +30,7 @@ Welcome to the **Chocobeast** project! This README provides an overview of the p
 - Responsive Design
 - Interactive Elements
 - Health Tools
-- Booking System
-- Iconography
+- Ordering System
 
 ## Installation
 
@@ -51,33 +50,42 @@ Welcome to the **Chocobeast** project! This README provides an overview of the p
    ```bash
    npm run dev
    ```
-5. Build for production:
-   ```bash
-   npm run build
+5. Open your browser and navigate to:
    ```
+   http://localhost:5173
+   ``` 
 
 ## Structure
 
 ```
 chocobeast/
-├── public/              # Static assets (favicon, etc)
-├── src/                 # Source code
-│   ├── assets/          # Project assets (images, etc)
-│   ├── components/      # React components
-│   │   ├── sections/    # Page sections (Home, About, Services, etc)
-│   │   ├── ui/          # Reusable UI components (Button, etc)
-│   │   ├── Footer.jsx   # Global Footer
-│   │   └── Navbar.jsx   # Global Navbar
-│   ├── data/            # Application data and constants
-│   │   └── index.jsx    # Central data store
-│   ├── lib/             # Utility functions and libraries
-│   │   └── utils.js     # Shared helper functions
-│   ├── App.jsx          # Main application component
-│   ├── index.css        # Global styles and Tailwind directives
-│   └── main.jsx         # Entry point
-├── index.html           # HTML Entry point
-├── package.json         # Project metadata and dependencies
-└── tailwind.config.js   # Tailwind CSS configuration
+├── .github/
+│   └── workflows/
+│       └── deploy.yml                # GitHub Actions deployment workflow
+├── dist/                             # Production build output
+├── node_modules/                     # Installed npm dependencies
+├── public/                           # Static public assets
+├── src/                              # Main React source code
+│   ├── components/                   # React components
+│   │   ├── sections/                 # Large page/section components
+│   │   ├── ui/                       # Reusable UI components
+│   │   └── CustomCursor.jsx          # Custom cursor component
+│   ├── lib/                          # Libraries/shared application logic
+│   ├── utils/                        # Utility/helper functions
+│   ├── App.css                       # App-specific styles
+│   ├── App.jsx                       # Root React component
+│   ├── index.css                     # Global styles/Tailwind styles
+│   └── main.jsx                      # React application entry point
+├── .gitignore                        # Git ignore rules
+├── eslint.config.js                  # ESLint configuration
+├── index.html                        # Vite HTML entry point
+├── LICENSE                           # Project license
+├── package-lock.json                 # Locked npm dependency versions
+├── package.json                      # Project metadata and dependencies
+├── postcss.config.js                 # PostCSS configuration
+├── README.md                         # Project documentation
+├── tailwind.config.js                # Tailwind CSS configuration
+└── vite.config.js                    # Vite configuration
 ```
 
 ## Contributors

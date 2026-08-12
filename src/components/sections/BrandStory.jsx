@@ -66,7 +66,7 @@ export default function BrandStory() {
             {/* Main Image Wrapper */}
             <div className="rounded-3xl overflow-hidden shadow-lux-lg bg-brand-deep-brown h-[450px]">
               <img 
-                src="/images/story.png" 
+                src="./images/story.png" 
                 alt="Artisanal chocolate making"
                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
               />

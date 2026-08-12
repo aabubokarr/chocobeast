@@ -53,7 +53,7 @@ export default function Navbar() {
               transition={{ type: "spring", stiffness: 300, damping: 10 }}
               className="text-brand-plum"
             >
-              <img src="/favicon.svg" alt="logo" className="w-10 h-10" />
+              <img src="./favicon.svg" alt="logo" className="w-10 h-10" />
             </motion.div>
             <span>
               Choco<span className="text-brand-caramel">beast</span>
